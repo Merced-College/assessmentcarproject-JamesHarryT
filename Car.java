@@ -18,13 +18,13 @@ public class Car {
 
 
     public Car(String id, String brand, String model, int year, String fuel_type, String color, double mileage) {
-        this.carID = id
-        this.brand = brand
-        this.model = model
-        this.year = year
-        this.fuel_type = fuel_type
-        this.color = color
-        this.mileage = mileage
+        this.carID = id;
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+        this.fuel_type = fuel_type;
+        this.color = color;
+        this.mileage = mileage;
     }
 
     public String getCarID() {
@@ -52,13 +52,13 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-                "ID='" + carID + "', \n" +
-                "brand='" + brand + "', \n" +
-                "model='" + model + "', \n" +
-                "year='" + year + "', \n" +
-                "fuel_type='" + fuel_type + "', \n" +
-                "color='" + color + "', \n" +
-                "mileage='" + mileage + "'}\n"
+                "ID='" + carID + "', " +
+                "brand='" + brand + "', " +
+                "model='" + model + "', " +
+                "year='" + year + "', " +
+                "fuel_type='" + fuel_type + "', " +
+                "color='" + color + "', " +
+                "mileage='" + mileage + "'}\n";
     }
 
 
